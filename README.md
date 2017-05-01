@@ -41,7 +41,7 @@ Application.Calculation = xlCalculationManual
 
 ''''''Attachment File name & location
     data_file = "Secondary.Daily_" & file_date & "_FINAL.xlsx"
-    Dim sPath As String: sPath = "\\nnjxcarlfppr02.svr.us.jpmchase.net\na_rfs_mb_share_prod$\MBNJ1Capital Markets\Secondary\PNL\PnL Daily Reports\"
+    Dim sPath As String: sPath = "C:/file path"
     Dim sFilename1 As String: sFilename1 = sPath & data_file
 
     Set OutApp = CreateObject("Outlook.Application")
